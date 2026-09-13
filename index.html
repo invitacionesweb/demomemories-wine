@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAURA Y ROBERTO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.16/mediaelementplayer.min.css" />
+
+</head>
+<body>
+    <header>
+       <div class="novios">
+       </div>
+    </header>
+    <h2  data-aos="fade-up" class="title">Faltan:</h2>
+    <div class="contador">
+        <div class="bloque">
+          <div data-aos="fade-up" id="dias" class="numero"></div>
+          <div data-aos="fade-up" class="etiqueta">Días</div>
+        </div>
+
+        <div class="bloque">
+          <div data-aos="fade-up" id="horas" class="numero"></div>
+          <div data-aos="fade-up" class="etiqueta">horas</div>
+        </div>
+
+        <div class="bloque">
+          <div data-aos="fade-up" id="minutos" class="numero"></div>
+          <div data-aos="fade-up" class="etiqueta">minutos</div>
+        </div>
+
+        <div class="bloque">
+          <div data-aos="fade-up" id="segundos" class="numero"></div>
+          <div data-aos="fade-up" class="etiqueta">segundos</div>
+        </div>
+    </div>
+<!--
+      <H2 id="mensaje" class="mensaje-final title" style="display: none;">LLEGÓ EL DÍA</H2>
+
+-->
+
+  <main>
+    <h3 class="quote" data-aos="fade-up" >"La medida del amor <br> es amar sin medida" <br> <i>San Agustín.</i></h3><br>
+    <img  data-aos="fade-up"  class="fecha" src="./img-editables/fecha.png" alt="">
+    <div class="information">
+
+
+      <div  class="information-bloque">
+        <img data-aos="fade-up" src="./img-editables/relicario.png" alt="">
+        <h3 data-aos="fade-up">Civil y fiesta</h3>
+        <p data-aos="fade-up">16:45 Hs - Jano's Bella Vista</p>
+        <a  data-aos="fade-up" class="boton" target="_blank" href="https://www.google.com/maps/dir//Jano's+Bella+Vista,+Corrientes+1682,+B1663+Bella+Vista,+Provincia+de+Buenos+Aires/@-34.5569717,-58.8076413,22826m/data=!3m1!1e3!4m18!1m8!3m7!1s0x95bcbd01341e9f37:0x5d885aa13232ed66!2sJano's+Bella+Vista!8m2!3d-34.5569892!4d-58.6957749!15sCg5qYW5vcyBib3V0aXF1ZVoQIg5qYW5vcyBib3V0aXF1ZZIBFmZ1bmN0aW9uX3Jvb21fZmFjaWxpdHmaASNDaFpEU1VoTk1HOW5TMFZKUTBGblNVTlNjalZRTTBkM0VBReABAPoBBAgAED4!16s%2Fg%2F11j24c46gb!4m8!1m0!1m5!1m1!1s0x95bcbd01341e9f37:0x5d885aa13232ed66!2m2!1d-58.6957749!2d-34.5569892!3e0?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D">Cómo llegar</a>
+      </div>
+
+    </div>
+  </main>
+  <div data-aos="fade-in" class="fotos">
+    <img src="./img-editables/1.png" alt="">
+  </div>
+
+
+
+
+  <div class="timeline">
+
+
+    <div class="iconos">
+        <div  class="iconos-block">
+            <img data-aos="fade-up"  src="./figuras/tulugar.png" alt="icono">
+            <p class="horario" data-aos="fade-up" > 16:45 Hs</p>
+            <p data-aos="fade-up" >Los esperamos</p>
+        </div>
+        <div   class="iconos-block">
+            <img data-aos="fade-up"  src="./figuras/anillos.png" alt="icono">
+            <p class="horario" data-aos="fade-up" >17:00 Hs</p>
+            <p data-aos="fade-up" >Ceremonia y civil</p>
+        </div>
+        <div  class="iconos-block">
+            <img data-aos="fade-up"  src="./figuras/copas.png" alt="icono">
+            <p class="horario" data-aos="fade-up">17:45 Hs</p>
+            <p data-aos="fade-up">Recepción <br> con sunset</p>
+        </div>
+        <div  class="iconos-block">
+            <img data-aos="fade-up" src="./figuras/cena.png" alt="icono">
+            <p class="horario" data-aos="fade-up">18:30 Hs</p>
+            <p data-aos="fade-up">Cena chill</p>
+        </div>
+        <div  class="iconos-block">
+            <img data-aos="fade-up"   src="./figuras/fiesta.png" alt="icono">
+            <p class="horario" data-aos="fade-up"  >21:00 Hs</p>
+            <p data-aos="fade-up"  >Fiesta</p>
+        </div>
+         <div  class="iconos-block">
+            <img data-aos="fade-up"   src="./figuras/vueltaacasa.png" alt="icono">
+            <p class="horario" data-aos="fade-up"  >01:00 Hs</p>
+            <p data-aos="fade-up"  >Vuelta a casa</p>
+        </div>
+    </div>
+</div>
+
+
+  <div  data-aos="fade-in" class="fotos">
+    <img src="./img-editables/3.png" alt="">
+  </div>
+
+<main>
+
+  <div class="information">
+    <div   class="information-bloque">
+    <img data-aos="fade-up" src="./figuras/instagram.png" alt="">
+    <h3 data-aos="fade-up" >Recuerdos</h3>
+    <p data-aos="fade-up">No nos queremos perder de nada, compartí tus fotos y videos de la fiesta y etiquetanos.</p>
+    <a class="boton" target="_blank" href="https://www.instagram.com/siquiero.arg/">@siquiero.arg</a>
+  </div>
+
+    <div class="information">
+    <div   class="information-bloque">
+    <img data-aos="fade-up" src="./figuras/spotify.png" alt="">
+    <h3 data-aos="fade-up" >Playlist </h3>
+    <p data-aos="fade-up">Si hay boda, hay joda. Ayudanos a armar la playlist para bailar toda la noche.</p>
+    <a class="boton" target="_blank" href="https://open.spotify.com/playlist/7uBSyST8uuKg9vLhyYUh3K?si=cpygtUQAThiS8-cvfMyuOQ&utm_source=copy-link&pi=ZAkPupI5QwGst&pt=19eee480d9619337ad214841d03670e9">Recomendar</a>
+  </div>
+
+
+</div>
+</main>
+
+<div data-aos="fade-in"  class="fotos">
+  <img src="./img-editables/2.png" alt="">
+</div>
+<main>
+  <div class="information">
+  <div  class="information-bloque">
+    <h3 data-aos="fade-up" >Dress code - Elegante</h3>
+    <p data-aos="fade-up" >Elegante, con onda y sin estrés. El blanco se lo dejamos a la novia 🤍</p>
+  </div>
+
+
+</div>
+</main>
+<div class="forms">
+
+        <form name="asistenciaform" method="POST" action="https://script.google.com/macros/s/AKfycbwgBnWsJ-2VCFMcM0Vx88NUh9jg0A-fMdQEIDmVo_vTUeucSg6BcRiReejZBNCMukzf/exec" class="formulario" id="asistenciaForm">
+
+            <label class="formtitle">Sólo faltas vos, Venís?</label>
+<p data-aos="fade-up">Recordá completar el formulario <br> antes del 15 de Diciembre.</p>
+            <select name="NUMERO_PERSONAS" id="numeroPersonas" required>
+                <option value="" disabled selected>¿Cuántas personas van a confirmar?</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+            <div id="invitadosContainer"></div>
+
+            <button type="submit" class="boton">Enviar</button>
+        </form>
+
+        <script>
+        (function () {
+          var select = document.getElementById('numeroPersonas');
+          var container = document.getElementById('invitadosContainer');
+
+          function bloqueInvitado(n) {
+            var esPrimero = n === 1;
+            var titulo = esPrimero ? '' : '<label class="invitado-titulo">Invitado n.º ' + n + '</label>';
+            var extra = esPrimero
+              ? '<textarea name="MENSAJE_' + n + '" placeholder="Dejale un mensaje a los novios 🤍"></textarea>'
+              : '';
+
+            return ''
+              + '<div class="invitado-bloque" data-invitado="' + n + '">'
+              + titulo
+              + '<input type="text" name="NOMBRE_' + n + '" placeholder="Nombre" required />'
+              + '<input type="text" name="APELLIDO_' + n + '" placeholder="Apellido" required />'
+              + '<select name="ASISTENCIA_' + n + '" required>'
+              +   '<option value="" disabled selected>Asistís?</option>'
+              +   '<option value="Sí">Sí</option>'
+              +   '<option value="No">No</option>'
+              +   '<option value="Aún no lo decido">Aún no lo decido</option>'
+              + '</select>'
+              + '<select name="DIETA_' + n + '" required>'
+              +   '<option value="" disabled selected>¿Alguna dieta especial?</option>'
+              +   '<option value="Nada">Nada / Como de todo</option>'
+              +   '<option value="Vegetariano">Vegetariano</option>'
+              +   '<option value="Vegano">Vegano</option>'
+              +   '<option value="Celíaco">Celíaco</option>'
+              + '</select>'
+              + extra
+              + '</div>';
+          }
+
+          function render(cantidad) {
+            // Antes de redibujar, guarda lo que la persona ya haya completado
+            var guardados = {};
+            container.querySelectorAll('input, select, textarea').forEach(function (el) {
+              if (el.name) guardados[el.name] = el.value;
+            });
+
+            var html = '';
+            for (var i = 1; i <= cantidad; i++) html += bloqueInvitado(i);
+            container.innerHTML = html;
+
+            // Restaura los valores que ya estaban cargados
+            container.querySelectorAll('input, select, textarea').forEach(function (el) {
+              if (el.name && guardados[el.name] !== undefined) el.value = guardados[el.name];
+            });
+          }
+
+          select.addEventListener('change', function () {
+            render(parseInt(select.value, 10));
+          });
+
+          render(1); // el invitado 1 está siempre presente (mínimo 1 persona)
+        })();
+        </script>
+
+        
+    </div>
+
+<main>
+
+
+  <div  class="information-bloque">
+    <br>
+    <img  data-aos="fade-up"  src="./figuras/giftcard.png" alt="">
+    <h3  data-aos="fade-up" >Mesa de regalos</h3>
+    <p  data-aos="fade-up" >El mejor regalo es que estés con nosotros <br>
+Pero si querés ayudarnos con nuestra soñada luna de miel...
+</p>
+    <div class="botones">
+      <a  data-aos="fade-in"  class="boton" onclick="copyToClipboard('estoesunejemplo')" >Alias pesos</a>
+      <a  data-aos="fade-in"  class="boton" onclick="copyToClipboard('estoesunejemplo')">Alias dólares</a>
+
+    </div>
+     <p  data-aos="fade-up" >Hace clic para copiar los datos. <br> Titular: Laura Rios</p>
+  </div>
+
+</div>
+</main>
+<div   class="fotos">
+  <img data-aos="fade-up" src="./img-editables/5.png" alt="">
+</div>
+
+</div>
+<div class="audiodiv">
+
+  <audio id="myAudio" preload="auto">
+  <source src="beneking.mp3" type="audio/mpeg">
+</audio>
+  <div id="playPauseBtn" class="play">
+      <img src="./figuras/notamusical.png" alt="Icono de música">
+  </div>
+</div>
+    <footer>
+        <div class="contenido">
+         <div>
+           <img src="./figuras/logosiquiero.png" alt="icono si quiero">
+             <p>Hecho con &hearts; <br>
+             &#169 <b>Si,quiero!</b> - invitaciones inteligentes.
+             <br> Todos los derechos reservados.</p>
+         </div>
+
+         <div class="contenido-list">
+             <ul>
+                 <li><a target="_blank" href="https://www.instagram.com/siquiero.arg/"><i class="bi bi-instagram"></i></a></li>
+                 <li><a target="_blank" href="https://www.facebook.com/Invitaciones-web-112187784608681"><i class="bi bi-facebook"></i></a></li>
+                 <li><a target="_blank" href="mailto:siquiero.invitaciones@gmail.com"><i class="bi bi-envelope"></i></a></li>
+               </ul>
+         </div>
+        </div>
+
+     </footer>
+           <script src="form.js"></script>
+
+    <script>
+document.addEventListener("DOMContentLoaded", function () {
+    const audio = document.getElementById("myAudio");
+    const intentarPlay = () => {
+        audio.play().catch(e => {
+            console.warn("El navegador bloqueó la reproducción automática", e);
+        });
+        // saca todos los listeners para que se ejecute una sola vez
+        document.removeEventListener("scroll", intentarPlay);
+        document.removeEventListener("touchstart", intentarPlay);
+        document.removeEventListener("click", intentarPlay);
+        document.removeEventListener("keydown", intentarPlay);
+    };
+    document.addEventListener("scroll", intentarPlay, { passive: true });
+    document.addEventListener("touchstart", intentarPlay, { passive: true });
+    document.addEventListener("click", intentarPlay);
+    document.addEventListener("keydown", intentarPlay);
+});
+</script>
+      <script src="script.js"></script>
+      <script src="reproductor.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+
+    function copyToClipboard(text) {
+       const tempInput = document.createElement("input");
+       document.body.appendChild(tempInput);
+       tempInput.value = text;
+       tempInput.select();
+       document.execCommand("copy");
+       document.body.removeChild(tempInput);
+       alert(`Copiaste los datos de cuenta "${text}" a tu portapapeles`);
+     }
+   </script>
+<script>
+    // Espera a que se cargue el DOM
+    document.addEventListener("DOMContentLoaded", function () {
+      const scrollToTopBtn = document.querySelector("#scroll-to-top");
+
+      scrollToTopBtn.addEventListener("click", () => {
+        // Comprueba la compatibilidad con "scroll-behavior"
+        if ("scrollBehavior" in document.documentElement.style) {
+          // Usa el desplazamiento suave del navegador
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          });
+        } else {
+          // Desplazamiento suave de respaldo para navegadores antiguos
+          scrollToTop(0, 600);
+        }
+      });
+
+      // Función de desplazamiento suave de respaldo para navegadores antiguos
+      function scrollToTop(to, duration) {
+        const start = window.scrollY || document.documentElement.scrollTop;
+        const change = to - start;
+        const increment = 20;
+        let currentTime = 0;
+
+        const animateScroll = function () {
+          currentTime += increment;
+          const val = Math.easeInOutQuad(currentTime, start, change, duration);
+          window.scrollTo(0, val);
+          if (currentTime < duration) {
+            requestAnimationFrame(animateScroll);
+          }
+        };
+
+        Math.easeInOutQuad = function (t, b, c, d) {
+          t /= d / 2;
+          if (t < 1) return c / 2 * t * t + b;
+          t--;
+          return -c / 2 * (t * (t - 2) - 1) + b;
+        };
+
+        requestAnimationFrame(animateScroll);
+      }
+    });
+  </script>
+</body>
+</html>
